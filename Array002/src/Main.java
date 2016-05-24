@@ -25,7 +25,24 @@ public class Main {
 		 * que formam palavras palindromas
 		 */
 		
-		
+		//Percorrendo as linhas
+		for (int i = 0; i < matriz.length; i++) {
+			
+			String inverso = "";
+			String nome = "";
+			
+			//Percorrendo as colunas	
+			for (int j = 0; j < matriz[0].length; j++) {
+				
+				nome += matriz[i][j];
+				inverso += matriz[i][matriz.length - j - 1];
+				
+				nome.equals[inverso];
+				
+				//System.out.print(matriz[i][j]);
+			}
+			System.out.print("\n");
+		}
 		
 		/*
 		 * Preencha o vetor abaixo com o número de vezes que uma vogal 
