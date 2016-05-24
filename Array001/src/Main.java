@@ -1,3 +1,4 @@
+import java.awt.SystemColor;
 
 public class Main {
 
@@ -20,6 +21,22 @@ public class Main {
 		 * Mostre o valor do maior e menor número do vetor.
 		 */
 		
+		int maior = numeros [0];
+		int menor = numeros [0];
+		
+		for (int numero : numeros) {
+			if(numero>maior)
+		{
+			maior = numero;
+		}
+			if(numero<menor)
+		{
+			menor = numero;	
+		}
+		}
+		
+		System.out.println(maior);
+		System.out.println(menor);
 		
 	}
 
