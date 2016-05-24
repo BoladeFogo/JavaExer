@@ -13,6 +13,8 @@ public class Main {
 		 * Mostre o valor do décimo terceiro e do vigésimo quinto número do vetor.
 		 */
 		
+		System.out.println(numeros[13]);
+		System.out.println(numeros[25]);
 		
 		/*
 		 * Mostre o valor do maior e menor número do vetor.
