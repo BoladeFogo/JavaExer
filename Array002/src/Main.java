@@ -53,8 +53,21 @@ public class Main {
 		
 		int[] nrVogais = { 0, 0, 0, 0, 0 };
 		
+		for (int i = 0; i < matriz.length; i++) {
+			for(int j=0; j < 4; j++) {
+				
+				char letraAtual = matriz [i] [j];
+				
+				if(letraAtual == 'a'){
+					nrVogais[0] = nrVogais[0]  + 1;
+					
+				}
+			}
+
+		}
+		
+		
 		
 
 	}
-
 }
