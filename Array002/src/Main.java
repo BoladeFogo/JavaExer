@@ -35,12 +35,14 @@ public class Main {
 			for (int j = 0; j < matriz[0].length; j++) {
 				
 				nome += matriz[i][j];
-				inverso += matriz[i][matriz.length - j - 1];
+				inverso += matriz[i][3 - j];
 				
-				nome.equals[inverso];
-				
-				//System.out.print(matriz[i][j]);
 			}
+			
+			if (nome.equals(inverso)) {
+				System.out.println(nome);
+			}
+			
 			System.out.print("\n");
 		}
 		
